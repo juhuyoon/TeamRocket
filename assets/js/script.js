@@ -1,3 +1,12 @@
+
+let jung={
+    iisLame: true,
+    isCool: false
+}
+
+if(jung.isCool){
+    console.log("wooo")
+}
 fetch("https://pokeapi.co/api/v2/ability/?limit=20&offset=20")
   .then((res) => {
     return res.json();
